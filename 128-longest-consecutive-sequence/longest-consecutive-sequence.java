@@ -9,13 +9,16 @@ class Solution {
         for (int num : nums) {
             set.add(num);
         }
-
+        // 100 4 200 1 3 2
+        //max =1
+        //num = 2 current = 200 lenght = 1 
         int maxLength = 0;
 
         for (int num : set) {
+            //
 
             if (!set.contains(num - 1)) {
-
+ 
                 int current = num;
                 int length = 1;
 
